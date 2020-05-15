@@ -58,7 +58,7 @@ def dennis_ritchies_language
       }
     }
   
-  programmer_hash[:dennis_ritchie][languages][0]
+  programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
@@ -112,7 +112,7 @@ def changing_alan
       }
     }
 
-  programmer_hash[:alan_kay][known_for] = "GUI"
+  programmer_hash[:alan_kay][:known_for] = "GUI"
   programmer_hash
 end
 
